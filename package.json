@@ -1,8 +1,10 @@
 {
   "name": "K0n73n7Ful",
-  "version": "0.1.19",
+  "version": "1.0.2",
   "private": false,
-  "scripts": {},
+  "scripts": {
+    "getversion": "echo $npm_package_version"
+  },
   "dependencies": {},
   "devDependencies": {},
   "browserslist": []
