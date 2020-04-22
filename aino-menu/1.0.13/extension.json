@@ -1,0 +1,17 @@
+{
+  "id": "aino-menu",
+  "name": "Menu",
+  "srcdoc": "./build/index.html",
+  "fieldTypes": ["Object"],
+  "parameters": {
+    "instance": [
+      {
+        "id": "contentTypeID",
+        "name": "Content Type ID",
+        "type": "Symbol",
+        "default": "",
+        "required": true
+      }
+    ]
+  }
+}
