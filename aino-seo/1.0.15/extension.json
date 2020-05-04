@@ -1,0 +1,17 @@
+{
+  "id": "aino-seo",
+  "name": "SEO",
+  "srcdoc": "./build/index.html",
+  "fieldTypes": ["Entry"],
+  "parameters": {
+    "instance": [
+      {
+        "id": "contentTypeId",
+        "name": "Content Type ID",
+        "type": "Symbol",
+        "default": "",
+        "required": true
+      }
+    ]
+  }
+}
