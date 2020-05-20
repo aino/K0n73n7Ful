@@ -1,0 +1,6 @@
+{
+  "id": "aino-table",
+  "name": "Table",
+  "srcdoc": "./build/index.html",
+  "fieldTypes": ["Object"]
+}
