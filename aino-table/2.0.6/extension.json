@@ -1,0 +1,17 @@
+{
+  "id": "aino-table",
+  "name": "Table",
+  "srcdoc": "./build/index.html",
+  "fieldTypes": ["Object"],
+  "parameters": {
+    "instance": [
+      {
+        "id": "columns",
+        "name": "Columns",
+        "type": "Number",
+        "default": 6,
+        "required": true
+      }
+    ]
+  }
+}
