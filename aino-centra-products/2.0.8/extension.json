@@ -1,0 +1,60 @@
+{
+  "id": "aino-centra-products",
+  "name": "Centra Products",
+  "srcdoc": "./build/index.html",
+  "fieldTypes": ["Object"],
+  "parameters": {
+    "instance": [
+      {
+        "id": "algoliaAppId",
+        "name": "Algolia App ID",
+        "type": "Symbol",
+        "default": "",
+        "required": true
+      },
+      {
+        "id": "algoliaApiKey",
+        "name": "Algolia API key",
+        "type": "Symbol",
+        "default": "",
+        "required": true
+      },
+      {
+        "id": "algoliaIndex",
+        "name": "Algolia index name",
+        "type": "Symbol",
+        "default": "",
+        "required": true
+      },
+      {
+        "id": "AlgoliaNameProperty",
+        "name": "Algolia product name property",
+        "type": "Symbol",
+        "default": "name",
+        "required": true
+      },
+      {
+        "id": "AlgoliaImageProperty",
+        "name": "Algolia product image property",
+        "type": "Symbol",
+        "default": "image",
+        "required": true
+      },
+      {
+        "id": "AlgoliaSkuProperty",
+        "name": "Algolia sku property",
+        "type": "Symbol",
+        "default": "sku",
+        "required": true
+      },
+      {
+        "id": "imageStringParser",
+        "name": "Template literal for image string",
+        "description": "Use parameters 'name' and 'extension' to build a custom image URL",
+        "type": "Symbol",
+        "default": "${name}_400x400${extension}",
+        "required": true
+      }
+    ]
+  }
+}
